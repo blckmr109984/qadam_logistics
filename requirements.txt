@@ -1,0 +1,14 @@
+# Telegram Bot API (aiohttp ставится вместе с aiogram и используется для Gemini API)
+aiogram>=3.13,<4.0
+# База данных
+SQLAlchemy[asyncio]>=2.0.30,<2.2
+aiosqlite>=0.20
+alembic>=1.13
+# Для PostgreSQL раскомментируйте и укажите DATABASE_URL=postgresql+asyncpg://...
+# asyncpg>=0.29
+# Конфигурация и валидация
+pydantic>=2.7,<3
+python-dotenv>=1.0
+# Тесты
+pytest>=8.0
+pytest-asyncio>=0.24

@@ -1,0 +1,64 @@
+2026-11-06 17:51:53,784 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 17:56:06,281 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 17:56:16,089 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 17:56:44,111 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 18:01:19,773 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 18:02:15,750 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 21:13:21,326 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 21:16:07,364 | CRITICAL | qadam | BOT_TOKEN не задан. Скопируйте .env.example в .env и укажите токен от @BotFather.
+2026-11-06 21:17:51,199 | INFO     | database.engine | Database schema is ready
+2026-11-06 21:17:51,220 | INFO     | database.seed | Demo routes and TEST tariffs seeded
+2026-11-06 21:17:51,374 | INFO     | app | AI assistant: Gemini (gemini-3.5-flash)
+2026-11-06 21:18:00,691 | INFO     | qadam | Qadam Logistics bot started as @Qadam_LogisticsBOT (admins: 1)
+2026-11-06 21:18:00,691 | INFO     | aiogram.dispatcher | Start polling
+2026-11-06 21:18:00,949 | INFO     | aiogram.dispatcher | Run polling for bot @Qadam_LogisticsBOT id=9063482264 - 'Qadam_Logistics'
+2026-11-06 21:18:11,677 | INFO     | middlewares | New user registered: 5445576095 (@Kurt_020)
+2026-11-06 21:20:28,273 | INFO     | middlewares | New user registered: 830462178 (@moon_julia06)
+2026-11-06 21:22:11,936 | INFO     | services.shipment_service | Shipment QDM-261106-RPGKY created by user 5445576095
+2026-11-06 21:22:34,105 | INFO     | services.shipment_service | Shipment QDM-261106-H55QZ created by user 830462178
+2026-11-06 21:22:45,371 | INFO     | handlers.admin | Admin 5445576095: QDM-261106-H55QZ pending -> confirmed
+2026-11-06 21:25:48,024 | WARNING  | services.ai_service | AI unavailable, fallback mode: Gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+2026-11-06 21:25:48,024 | INFO     | handlers.assistant | Assistant reply: user=5445576095 intent=question source=fallback
+2026-11-06 21:27:55,347 | INFO     | aiogram.dispatcher | Polling stopped
+2026-11-06 21:27:55,349 | ERROR    | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-11-06 21:27:55,349 | WARNING  | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 9063482264)
+2026-11-06 21:27:55,611 | INFO     | qadam | Bot stopped, DB connections closed
+2026-11-06 21:27:55,611 | INFO     | aiogram.dispatcher | Polling stopped for bot @Qadam_LogisticsBOT id=9063482264 - 'Qadam_Logistics'
+2026-11-07 15:06:04,068 | INFO     | database.engine | Database schema is ready
+2026-11-07 15:06:04,244 | INFO     | app | AI assistant: Gemini (gemini-3.5-flash)
+2026-11-07 15:06:04,809 | INFO     | qadam | Qadam Logistics bot started as @Qadam_LogisticsBOT (admins: 1)
+2026-11-07 15:06:04,809 | INFO     | aiogram.dispatcher | Start polling
+2026-11-07 15:06:04,921 | INFO     | aiogram.dispatcher | Run polling for bot @Qadam_LogisticsBOT id=9063482264 - 'Qadam_Logistics'
+2026-11-07 15:10:10,894 | INFO     | services.shipment_service | Shipment QDM-261107-6W3WZ created by user 5445576095
+2026-11-07 15:11:58,854 | WARNING  | services.ai_service | AI unavailable, fallback mode: Gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+2026-11-07 15:11:58,855 | INFO     | handlers.assistant | Assistant reply: user=5445576095 intent=shipment source=fallback
+2026-11-07 15:12:25,136 | INFO     | aiogram.dispatcher | Polling stopped
+2026-11-07 15:12:25,137 | ERROR    | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-11-07 15:12:25,137 | WARNING  | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 9063482264)
+2026-11-07 15:12:25,394 | INFO     | qadam | Bot stopped, DB connections closed
+2026-11-07 15:12:25,395 | INFO     | aiogram.dispatcher | Polling stopped for bot @Qadam_LogisticsBOT id=9063482264 - 'Qadam_Logistics'
+2026-11-07 16:16:44,769 | INFO     | database.engine | Database schema is ready
+2026-11-07 16:16:44,930 | INFO     | app | AI assistant: Gemini (gemini-3.5-flash)
+2026-11-07 16:16:49,709 | INFO     | qadam | Qadam Logistics bot started as @GetParcelPal_bot (admins: 1)
+2026-11-07 16:16:49,709 | INFO     | aiogram.dispatcher | Start polling
+2026-11-07 16:16:49,816 | INFO     | aiogram.dispatcher | Run polling for bot @GetParcelPal_bot id=9064121184 - 'ParcelPal'
+2026-11-07 16:17:32,157 | INFO     | middlewares | New user registered: 7730914837 (@opforget)
+2026-11-07 16:18:00,269 | INFO     | aiogram.dispatcher | Polling stopped
+2026-11-07 16:18:00,270 | ERROR    | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-11-07 16:18:00,270 | WARNING  | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 9064121184)
+2026-11-07 16:18:00,530 | INFO     | qadam | Bot stopped, DB connections closed
+2026-11-07 16:18:00,530 | INFO     | aiogram.dispatcher | Polling stopped for bot @GetParcelPal_bot id=9064121184 - 'ParcelPal'
